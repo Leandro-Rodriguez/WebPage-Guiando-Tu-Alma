@@ -32,7 +32,6 @@ body {
 }
 
 header {
-    background: linear-gradient(to right, #ff0000, #cc0000);
     /* Degradado de rojo a rojo oscuro */
     color: #fff;
     padding: 15px;
@@ -56,7 +55,7 @@ header div {
 
 .introduccion {
     height: 100vh;
-    background-image: url("../assets/img/introduccion.jpg");
+    background-image: url("../assets/img/akashico.jpg");
     background-size: 100vw 100vh;
     background-position: center;
     color: #fff;
@@ -123,29 +122,28 @@ h2 {
 
 .titulo1 {
     text-align: center;
-    padding: 0.75rem;
     font-size: 3em;
-    color: black;
+    color: rgb(229, 176, 250);
+    padding: 0.75rem;
 }
 
 .imgcajalogo {
-    max-height: 60px;
+    max-height: 30px;
     position: relative;
     left: 1px;
     top: 1px;
 }
 
 nav {
-    background: linear-gradient(to right, #f60000, #c40000);
-    /* Degradado de rojo a rojo oscuro */
-    padding: 20px;
-    /* Aumenté el espacio del menú */
-    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;
     width: 40em;
     display: flex;
     justify-content: space-evenly;
     position: relative;
     margin-right: 30px;
+    background: rgba(217, 166, 238, 0.56);
+    padding: 20px;
+    border-radius: 40px;
 }
 
 ul {
@@ -178,7 +176,7 @@ ul li:hover {
 
 ul li:hover a {
     background: #fff;
-    color: #cc0000;
+    color: #c664ed;
     /* Rojo oscuro para el color de resaltado */
     border-radius: 5px;
     padding: 8px;
@@ -210,15 +208,14 @@ article {
 }
 
 footer {
-    background-color: #636363;
-    color: #fff;
+    background-color: #c664ed;
+    color: rgb(255, 255, 255);
     text-align: center;
-    padding: 0.5em;
-    position: fixed;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
     z-index: 990;
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 5px 0px;
+    padding: 0.5em;
 }
 
 footer p {
@@ -357,7 +354,7 @@ footer p {
 }
 
 .espaciadito2:hover {
-    background: #f60000;
+    background: rgb(168, 90, 205);
     color: #fff;
     padding-left: +1.5%;
     padding-right: +1.5%;
@@ -365,7 +362,7 @@ footer p {
 
 
 .espaciadito3:hover {
-    background: #f60000;
+    background: rgb(168, 90, 205);
     color: #fff;
     padding-left: +1.5%;
     padding-right: +1.5%;
@@ -379,7 +376,7 @@ footer p {
 }
 
 .espaciadito4:hover {
-    background: #f60000;
+    background: rgb(168, 90, 205);
     color: #fff;
     padding-left: +1.5%;
     padding-right: +1.5%;
@@ -405,7 +402,8 @@ footer p {
 /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */
 /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */
 
-/* Media query para dispositivos con un ancho máximo de 768px */
+/* Media query para dispositivos con un ancho máximo de 768px
+
 @media (max-width: 768px) {
 
     body{
@@ -414,7 +412,6 @@ footer p {
 
     header {
         background: linear-gradient(to right, #ff0000, #cc0000);
-        /* Degradado de rojo a rojo oscuro */
         color: #fff;
         padding: 15px;
         display: flex;
@@ -588,22 +585,22 @@ footer p {
     }
 
 }
+*/
+
+
+
+
 
 /* Boton WPP */
  
 #gb-widget-8071 {
-            bottom: 35px;
-            right: 10px;
-            // opacity: 0;
-            // transition: opacity 0.5s;
-            box-sizing: border-box;
-            position: fixed;
-            z-index: 2300;
-            direction: ltr;
-            text-align: right;
-            display: false;
-            align-items: false;
-            flex-direction: false;
+    bottom: 10px;
+    right: 10px;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 2300;
+    direction: ltr;
+    text-align: right;
         }
 
     #gb-widget-8071 > * {
@@ -629,21 +626,27 @@ footer p {
         opacity: 1;
         width: 66px;
         height: 66px;
-        border-radius: 50%;
         display: block;
         order: 2;
-        padding: 5px;
         box-sizing: border-box;
         cursor: pointer;
-        overflow: hidden;
         box-shadow: rgba(99, 99, 99, 0.5) 3px 7px 15px;
-        transition: all 0.5s ease 0s;
         position: relative;
         z-index: 200;
-        border: 3.375px solid rgb(255, 255, 255);
+        animation-timeline: auto;
+        animation-range-start: normal;
+        animation-range-end: normal;
+        background-color: rgb(198, 100, 237);
+        border-radius: 50%;
+        padding: 5px;
+        overflow: hidden;
+        transition: all 0.5s ease 0s;
+        border-width: 3.375px;
+        border-style: solid;
+        border-color: rgb(255, 255, 255);
+        border-image: initial;
         animation: 2s ease 1s infinite normal none running hJgPhc;
         text-decoration: none;
-        background-color: rgb(255, 0, 0);
     }
     
 
