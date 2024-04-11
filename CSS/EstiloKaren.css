@@ -593,38 +593,38 @@ footer p {
 
 /* Boton WPP */
 
-    #gb-widget-8071 {
-            bottom: 10px;
-            right: 10px;
-            // opacity: 0;
-            // transition: opacity 0.5s;
-            box-sizing: border-box;
-            position: fixed;
-            z-index: 2300;
-            direction: ltr;
-            text-align: right;
-            display: false;
-            align-items: false;
-            flex-direction: false;
-        }
+#gb-widget-8071 {
+    bottom: 10px;
+    right: 10px;
+    // opacity: 0;
+    // transition: opacity 0.5s;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 2300;
+    direction: ltr;
+    text-align: right;
+    display: false;
+    align-items: false;
+    flex-direction: false;
+}
 
-    #gb-widget-8071 > * {
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-        box-sizing: border-box; 
-    }
+#gb-widget-8071 > * {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+}
 
-    .hKYcqG {
-        display: flex;
-        margin: 7px;
-        position: relative;
-        -webkit-box-pack: end;
-        justify-content: flex-end;
-    }
+.hKYcqG {
+    display: flex;
+    margin: 7px;
+    position: relative;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
 
-    .kjRUkx {
-        order: 2;
-        position: relative;
-    }
+.kjRUkx {
+    order: 2;
+    position: relative;
+}
 
     .jRodDz {
         flex-shrink: 0;
